@@ -34,6 +34,7 @@
   </properties>
 
   <dependencies>
+
     <!-- MySql -->
     <dependency>
       <groupId>mysql</groupId>
@@ -192,6 +193,7 @@
     <finalName>CRM</finalName>
     <pluginManagement>
       <plugins>
+
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.1.0</version>

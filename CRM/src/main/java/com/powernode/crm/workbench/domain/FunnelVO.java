@@ -1,5 +1,7 @@
 package com.powernode.crm.workbench.domain;
 
+
+
 public class FunnelVO {
 
     private String name;
