@@ -27,7 +27,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         User user = (User)session.getAttribute(Constants.SESSION_USER);
         if(user == null){
             //重定向时，url必须加项目的名称
-            System.out.println("*******************" + request.getContextPath());
+//            System.out.println("*******************" + request.getContextPath());
             response.sendRedirect(request.getContextPath());
 
             return false;

@@ -313,7 +313,7 @@
       <if test="startDate != null and startDate != ''">start_date = #{startDate},</if>
       <if test="endDate != null and endDate != ''">end_date = #{endDate},</if>
       <if test="cost != null and cost != ''">cost = #{cost},</if>
-      <if test="description != null and description != ''">description = #{description},</if>
+      <if test="description != null and description != ''" >description = #{description},</if>
       <if test="editTime != null and editTime != ''">edit_time = #{editTime},</if>
       <if test="editBy != null and editBy != ''">edit_by = #{editBy},</if>
     </set>

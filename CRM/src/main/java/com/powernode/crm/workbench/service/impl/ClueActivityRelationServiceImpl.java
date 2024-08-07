@@ -17,7 +17,7 @@ import java.util.List;
  * @CreateDate 2023-11-02 14:24
  * @Version 1.0
  */
-@Service("clueActivityRelationService")
+@Service
 public class ClueActivityRelationServiceImpl implements ClueActivityRelationService {
 
     @Autowired

@@ -18,7 +18,7 @@ import java.util.List;
  * @CreateDate 2023-11-06 16:30
  * @Version 1.0
  */
-@Service("tranHistoryService")
+@Service
 public class TranHistoryServiceImpl implements TranHistoryService {
     @Autowired
     private TranHistoryMapper tranHistoryMapper;

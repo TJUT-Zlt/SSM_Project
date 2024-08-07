@@ -18,7 +18,7 @@ import java.util.Map;
  * @CreateDate 2023-11-06 14:58
  * @Version 1.0
  */
-@Service("contactsService")
+@Service
 public class ContactsServiceImpl implements ContactsService {
 
     @Autowired

@@ -24,7 +24,7 @@ import java.util.Map;
  * @CreateDate 2023-10-30 11:58
  * @Version 1.0
  */
-@Service("clueService")
+@Service
 public class ClueServiceImpl implements ClueService {
 
     @Autowired

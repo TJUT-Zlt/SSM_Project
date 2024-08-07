@@ -29,7 +29,7 @@ import java.util.Map;
  * @CreateDate 2023-11-03 21:03
  * @Version 1.0
  */
-@Service("tranService")
+@Service
 public class TranServiceImpl implements TranService {
 
     @Autowired

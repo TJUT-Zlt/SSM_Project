@@ -17,7 +17,7 @@ import java.util.List;
  * @CreateDate 2023-10-30 10:06
  * @Version 1.0
  */
-@Service("dicValueService")
+@Service
 public class DicValueServiceImpl implements DicValueService {
 
     @Autowired

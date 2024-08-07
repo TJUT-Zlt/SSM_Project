@@ -17,7 +17,7 @@ import java.util.List;
  * @CreateDate 2023-11-12 10:46
  * @Version 1.0
  */
-@Service("contactsActivityRelationService")
+@Service
 public class ContactsActivityRelationServiceImpl implements ContactsActivityRelationService {
 
     @Autowired

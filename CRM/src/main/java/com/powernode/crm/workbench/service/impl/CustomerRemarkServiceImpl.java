@@ -18,7 +18,7 @@ import java.util.List;
  * @CreateDate 2023-11-03 18:05
  * @Version 1.0
  */
-@Service("customerRemarkService")
+@Service
 public class CustomerRemarkServiceImpl implements CustomerRemarkService {
 
     @Autowired

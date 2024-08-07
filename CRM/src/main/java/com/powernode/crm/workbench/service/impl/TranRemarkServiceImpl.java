@@ -17,7 +17,7 @@ import java.util.List;
  * @CreateDate 2023-11-06 16:24
  * @Version 1.0
  */
-@Service("tranRemarkService")
+@Service
 public class TranRemarkServiceImpl implements TranRemarkService {
 
     @Autowired

@@ -18,7 +18,7 @@ import java.util.Map;
  * @CreateDate 2023-10-20 10:36
  * @Version 1.0
  */
-@Service("activityService")
+@Service
 public class ActivityServiceImpl implements ActivityService {
 
     @Autowired

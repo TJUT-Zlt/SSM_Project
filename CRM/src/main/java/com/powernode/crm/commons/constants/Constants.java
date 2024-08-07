@@ -1,6 +1,6 @@
 package com.powernode.crm.commons.constants;
 
-import com.powernode.crm.settings.domain.User;
+
 
 /**
  * ClassName:Constants

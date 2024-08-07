@@ -17,7 +17,7 @@ import java.util.List;
  * @CreateDate 2023-11-08 22:16
  * @Version 1.0
  */
-@Service("contactsRemarkService")
+@Service
 public class ContactsRemarkServiceImpl implements ContactsRemarkService {
 
     @Autowired

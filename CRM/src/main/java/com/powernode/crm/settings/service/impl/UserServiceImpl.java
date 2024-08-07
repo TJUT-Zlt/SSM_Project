@@ -19,7 +19,7 @@ import java.util.Map;
  * @Version 1.0
  */
 
-@Service("userService")
+@Service
 public class UserServiceImpl implements UserService {
 
     @Autowired
